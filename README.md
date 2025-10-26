@@ -37,5 +37,4 @@ Future Enhancements
 
 Persistent data storage using localStorage
 Categorized expenses for better management
-
 Charts and graphs to visualize spending trends over time
