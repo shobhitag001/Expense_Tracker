@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartExpense - Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💰 SmartExpense</h1>
+    <p>Track your daily expenses easily</p>
+
+    <div class="input-group">
+      <input type="text" id="item" placeholder="Enter item (e.g., Coffee)" />
+      <input type="number" id="amount" placeholder="Amount ₹" />
+      <button id="addBtn">Add</button>
+    </div>
+
+    <ul id="expenseList"></ul>
+
+    <div class="total">
+      Total: ₹<span id="totalAmount">0</span>
+    </div>
+  </div>
+
+  <footer>Made with ❤️ by Shobhit</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
